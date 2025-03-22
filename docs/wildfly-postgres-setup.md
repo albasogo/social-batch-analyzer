@@ -17,7 +17,11 @@ Este documento describe cómo configurar un **datasource PostgreSQL** en **WildF
 
 ```bash
 mkdir -p /opt/wildfly/modules/system/layers/base/org/postgresql/main
+```
+```bash
 cd /opt/wildfly/modules/system/layers/base/org/postgresql/main
+```
+```bash
 curl -o postgresql-42.6.0.jar https://jdbc.postgresql.org/download/postgresql-42.6.0.jar
 ```
 ## 2. Crear el módulo JDBC en WildFly
