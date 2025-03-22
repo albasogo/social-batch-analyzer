@@ -45,7 +45,7 @@ Dentro del bloque <subsystem xmlns="urn:jboss:domain:datasources:7.2">
                 pool-name="ComentariosPool"
                 enabled="true"
                 use-java-context="true">
-        <connection-url>jdbc:postgresql://<IP_DEL_SERVIDOR>:5432/<NOMBRE_BASE_DATOS></connection-url>
+        <connection-url>jdbc:postgresql://[IP_DEL_SERVIDOR]:5432/[NOMBRE_BASE_DATOS]</connection-url>
         <driver>postgresql</driver>
         <security user-name="usuario" password="contraseña"/>
     </datasource>
@@ -57,7 +57,7 @@ Dentro del bloque <subsystem xmlns="urn:jboss:domain:datasources:7.2">
     </drivers>
 </datasources>
 ``` 
-Importante: Sustituye <IP_DEL_SERVIDOR>, <NOMBRE_BASE_DATOS>, usuario, contraseña por los valores reales.
+Importante: Sustituye [IP_DEL_SERVIDOR], [NOMBRE_BASE_DATOS], usuario, contraseña por los valores reales.
 
 ## 4. Reiniciar WildFly
 
