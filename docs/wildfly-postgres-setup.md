@@ -70,7 +70,7 @@ Importante: Sustituye [IP_DEL_SERVIDOR], [NOMBRE_BASE_DATOS], usuario, contrase�
 ```
 
 ## 5. Configurar el datasource en standalone.xml
-### 1. Ir a: http://<IP-servidor>:9990
+### 1. Ir a: http://[IP-servidor]:9990
 ### 2. Iniciar sesión con usuario administrador
 ### 3. Navegar a: Configuration → Subsystems → Datasources
 ### 4. Seleccionar el nombre de tu data source
